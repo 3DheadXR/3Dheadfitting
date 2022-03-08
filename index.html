@@ -1,0 +1,70 @@
+
+<html lang="en">
+
+<head>
+    <title>Single-camera 3D head fitting for mixed reality clinical applications</title>
+    <style type="text/css">
+    body { background-color: White; font-family: Helvetica, Futura, "Trebuchet MS", sans-serif; width:90%; margin:0 auto;}
+    h1 { color: black; font-family: Helvetica, Futura, "Trebuchet MS", sans-serif; }
+    p { color: black; font-family: Helvetica, Futura, "Trebuchet MS", sans-serif;}
+</style>
+</head>
+
+<body>
+
+
+ <center><h2 style="font-size:36px">Single-camera 3D head fitting for mixed reality clinical applications</h2></center>
+
+<center>
+<table style="width:95%">
+  <tr>
+    <td style="text-align:center"><font size="4">Tejas Mane<sup>1</sup></font></td>
+    <td style="text-align:center"><font size="4">Aylar Bayramova<sup>1</sup></font></td>
+    <td style="text-align:center"><font size="4">Kostas Daniilidis<sup>2</sup></font></td>
+    <td style="text-align:center"><font size="4">Philippos Mordohai<sup>3</sup></font></td>
+    <td style="text-align:center"><font size="4">Elena Bernardis<sup>1</sup></font></td>
+  </tr>
+  <tr>
+    <td></td> 
+    <td style="text-align:center"><sup>1</sup>Dept. Dermatology, University of Pennsylvania</td> 
+    <td style="text-align:center"><sup>2</sup>Dept. Computer and Information Science, University of Pennsylvania</td>
+    <td style="text-align:center"><sup>3</sup>Dept. Computer Science, Stevens Institute of Technology</td>
+  </tr>
+</table>
+</center>
+
+
+<!--<div style="text-align: center;">
+<video height="300" playsinline autoplay muted loop>
+  <source src="ADD_VIDEO.mp4" type="video/mp4">
+</video>
+</div> -->
+
+ <center><img width="95%" style="max-width:1000px" src="https://user-images.githubusercontent.com/43998771/157100759-c444c829-101f-4833-8f50-5357351bc15c.jpeg" alt="Image"></center>
+
+<h3>Abstract</h3>
+<p>We address the problem of estimating the shape of a person’s head, defined as the geometry of the complete head surface, from a video taken with a single moving camera, and determining the alignment of the fitted 3D head for all video frames, irrespective of the person’s pose. 3D head reconstructions commonly tend to focus on perfecting the face reconstruction, leaving the scalp to a statistical approximation. Our goal is to reconstruct the head model of each person to enable future mixed reality applications. To do this, we recover a dense 3D reconstruction and camera information via structure-from-motion and multi-view stereo. These are then used in a new two-stage fitting process to recover the 3D head shape by iteratively fitting a 3D morphable model of the head with the dense reconstruction in canonical space and fitting it to each person’s head, using both traditional facial landmarks and scalp features extracted from the head’s segmentation mask. Our approach recovers consistent geometry for varying head shapes, from videos taken by different people, with different smartphones, and in a variety of environments from living rooms to outdoor spaces.</p>
+
+<p><a href="https://doi.org/10.1016/j.cviu.2022.103384">[Download pdf]</a>
+<a href="https://arxiv.org/abs/2109.02740">[ArXiv]</a></p>
+
+<h3>Technical Video</h3>
+
+<p>Coming Soon.</p>
+
+<h3>Bibtex</h3>
+<pre>
+@article{MANE2022103384,
+author = {Tejas Mane and Aylar Bayramova and Kostas Daniilidis and Philippos Mordohai and Elena Bernardis},
+title = {Single-camera 3D head fitting for mixed reality clinical applications},
+journal = {Computer Vision and Image Understanding},
+volume = {218},
+pages = {103384},
+year = {2022},
+issn = {1077-3142},
+doi = {https://doi.org/10.1016/j.cviu.2022.103384}
+}
+</pre>
+
+</body>
+</html>
