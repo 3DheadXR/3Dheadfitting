@@ -16,7 +16,7 @@ We address the problem of estimating the shape of a person’s head, defined as 
 
 Coming Soon.
 
-### BibTex Reference
+### BibTex 
 
 @article{MANE2022103384,
 author = {Tejas Mane and Aylar Bayramova and Kostas Daniilidis and Philippos Mordohai and Elena Bernardis},
